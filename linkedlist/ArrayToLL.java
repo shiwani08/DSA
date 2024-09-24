@@ -1,11 +1,14 @@
 // NEVER EVER tamper the head of a LL
+// in case of arrays - we need to print the entire array. in case of LL, we need to print the head, the rest is taken care of by tracking
+
+
 public class ArrayToLL {
       public static void main(String[] args) {
             int a[] = {1,2,3,4,5,6};
             Node head = new Node(a[0]);
             Node mover = head;
             Node temp;
-            int i;
+            int i, length = 0;
             for (i = 1; i < a.length; i++) {
                   temp = new Node(a[i]);
                   mover.next = temp;      // mover should point to the next element which is stored at temp
@@ -22,8 +25,10 @@ public class ArrayToLL {
             while (temp != null) {
                   System.out.print(temp.data + " ");
                   temp = temp.next;
+                  length++;
             }
             System.out.println();
+            System.out.println("The length of the linkedlist is: " + length);
       }
 }
 
