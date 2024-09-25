@@ -1,10 +1,15 @@
 public class DeleteHead {
       public static void main(String[] args) {
-            int a[] = {1,2,3,4,5,6};
+            int a[] = {};
             Node head = new Node (a[0]);
             Node mover = head;
             Node temp = head;
             int i;
+
+            if(head == null) {
+                  System.out.println("LL is empty");
+                  System.exit(0);
+            }
             System.out.println("the initial pos of the head was: " + head);
             System.out.println("the initial value of the head was: " + head.data);
 
