@@ -14,11 +14,24 @@ public class InsertAtHead {
 
             temp = ob.AtHead(head, 10);
             ob.printLL(temp);
+            temp = ob.AtEnd(head, 10);
+            ob.printLL(temp);
 
       }
       Node AtHead(Node head, int val) {
             Node temp = new Node(val, head);
             return temp;
+      }
+
+      Node AtEnd(Node head, int val) {
+            Node temp = head;
+            while (temp.next != null) {
+                  temp = temp.next;
+            }
+            Node mover = new Node(val);
+            temp.next = mover;
+
+            return head;
       }
 
       void printLL (Node head) {
