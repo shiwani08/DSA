@@ -1,9 +1,13 @@
 import java.util.LinkedList;
 public class InsertAtAnyNode {
       public static void main(String[] args) {
-            
+
+            InsertAtAnyNode ob = new InsertAtAnyNode();
             LinkedList list = new LinkedList<>();
-            Node temp = new Node(10);
+            Node head = new Node(10);
+            Node temp = ob.Insert(head, 100, 1);
+
+            ob.printLL(temp);
 
       }
       Node Insert (Node head, int val, int pos) {
@@ -26,6 +30,15 @@ public class InsertAtAnyNode {
                   }
             }
             return head;
+      }
+
+      void printLL (Node head) {
+            Node temp = head;
+            while (temp != null) {
+                  System.out.print(temp.data + " ");
+                  temp = temp.next;
+            }
+            System.out.println();
       }
 }
 
