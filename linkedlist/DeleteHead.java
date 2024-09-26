@@ -6,10 +6,6 @@ public class DeleteHead {
             Node temp = head;
             int i;
 
-            if(head == null) {
-                  System.out.println("LL is empty");
-                  System.exit(0);
-            }
             System.out.println("the initial pos of the head was: " + head);
             System.out.println("the initial value of the head was: " + head.data);
 
