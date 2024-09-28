@@ -13,12 +13,14 @@ public class MakingDLL {
       }
 
       Node arrToDLL (Node head, int arr[]) {
-            Node temp = head, mover;
+            Node temp = head;
+            Node prev = head;
             int i;
             for (i = 1; i < arr.length; i++) {
-                  mover = new Node(arr[i]);
-                  temp.next = mover;
-                  temp = mover;
+                  temp = new Node(arr[i], null, prev);
+                  temp.prev = prev;
+                  prev.next = temp;
+                  prev = temp; // prev = prev.next can also be written
             }
 
             return head;
