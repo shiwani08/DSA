@@ -1,7 +1,7 @@
 public class DeleteHead {
       public static void main(String[] args) {
             int a[] = {};
-            Node head = new Node (a[0]);
+            Node head = new Node(a[0]);
             Node mover = head;
             Node temp = head;
             int i;
@@ -11,7 +11,7 @@ public class DeleteHead {
 
             for (i = 1; i < a.length; i++) {
                   temp = new Node(a[i]);
-                  mover.next = temp;      // mover should point to the next element which is stored at temp
+                  mover.next = temp; // mover should point to the next element which is stored at temp
                   mover = temp;
             }
 
@@ -24,11 +24,13 @@ public class DeleteHead {
 class Node {
       int data;
       Node next;
-      Node (int data1, Node next1) {
+
+      Node(int data1, Node next1) {
             this.data = data1;
             this.next = next1;
       }
-      Node (int data1) {
+
+      Node(int data1) {
             this.data = data1;
             this.next = null;
       }

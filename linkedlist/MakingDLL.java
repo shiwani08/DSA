@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 public class MakingDLL {
       public static void main(String[] args) {
             MakingDLL ob = new MakingDLL();
@@ -46,14 +45,3 @@ class Node {
             this.prev = null;
       }
 }
-=======
-public class MakingDLL {
-      public static void main(String[] args) {
-            
-      }
-}
-
-class Node {
-      
-}
->>>>>>> 20c8b4af57760d743d07eacb127fbca1b1a39dc4
