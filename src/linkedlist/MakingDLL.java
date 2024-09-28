@@ -1,6 +1,10 @@
+package linkedlist;
+import linkedlist.ArrayToLL;
+
 public class MakingDLL {
       public static void main(String[] args) {
             MakingDLL ob = new MakingDLL();
+            ArrayToLL ob2 = new ArrayToLL();
 
             int arr[] = {1, 2, 3, 4, 5};
             Node head = new Node(arr[0]);
@@ -15,7 +19,8 @@ public class MakingDLL {
             int i;
             for (i = 1; i < arr.length; i++) {
                   mover = new Node(arr[i]);
-                  temp = temp.next;
+                  temp.next = mover;
+                  temp = mover;
             }
 
             return head;
@@ -23,7 +28,7 @@ public class MakingDLL {
       void print (Node head) {
             Node temp = head;
             while (temp != null) {
-                  System.out.print(temp.data);
+                  System.out.print(temp.data + " ");
                   temp = temp.next;
             }
             System.out.println();
