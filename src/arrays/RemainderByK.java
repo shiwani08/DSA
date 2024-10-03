@@ -15,13 +15,20 @@ public class RemainderByK {
       }
       public int minSubarray(int[] nums, int p) {
             HashSet <Integer> set = new HashSet<>();
-            int len = 0;
-            int sum = add(nums);
+            int len = nums.length, i, sum = add(nums), remSum = 0, subSum = 0, start, end;
             if (sum % p == 0)
                   return 0;
 
-            set.add(sum % p);
-            len = set.size();
-            return len;
+            for (start = 0; start < nums.length; start++) {
+                  subSum = 0;
+                  for (end = start; end < nums.length; end++) {
+                        subSum += nums[end];
+                        remSum = (sum - subSum) % p;
+                        if(remSum == 0) 
+                              len = Math.min(len, end - start + 1);
+                  }
+            }
+            
+            return (len == nums.length)? -1 : len;
       }
 }
