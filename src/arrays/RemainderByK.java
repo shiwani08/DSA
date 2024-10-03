@@ -1,34 +1,42 @@
-import java.util.HashSet;
+import java.util.HashMap;
 public class RemainderByK {
       public static void main(String[] args) {
             RemainderByK ob = new RemainderByK();
-            int arr[] = {1,2,3};
+            int arr[] = {1000000000,1000000000,1000000000};
+            long sum = ob.add(arr);
+            System.out.println(sum);
             int len = ob.minSubarray(arr, 3);
             System.out.println(len);
       }
-      public int add (int arr[]) {
-            int sum = 0, i;
+      public long add (int arr[]) {
+            long sum = 0; 
+            int i;
             for (i = 0; i < arr.length; i++) {
                   sum += arr[i];
             }
             return sum;
       }
       public int minSubarray(int[] nums, int p) {
-            HashSet <Integer> set = new HashSet<>();
-            int len = nums.length, i, sum = add(nums), remSum = 0, subSum = 0, start, end;
-            if (sum % p == 0)
+            HashMap <Long, Integer> modMap = new HashMap<>();
+            int n = nums.length, i, len = n;
+            long totalSum = add(nums);
+            long currentSum = 0, neededSum = 0, target = totalSum % p;
+
+            if (target == 0)
                   return 0;
 
-            for (start = 0; start < nums.length; start++) {
-                  subSum = 0;
-                  for (end = start; end < nums.length; end++) {
-                        subSum += nums[end];
-                        remSum = (sum - subSum) % p;
-                        if(remSum == 0) 
-                              len = Math.min(len, end - start + 1);
+            modMap.put(0L, -1);
+            
+            for (i = 0; i < n; i++) {
+                  currentSum = (currentSum + nums[i])  % p;
+                  neededSum = (currentSum - target + p) % p;
+
+                  if(modMap.containsKey(neededSum)){
+                        len = Math.min(len, i - modMap.get(neededSum));
                   }
+                  modMap.put(currentSum, i);
             }
             
-            return (len == nums.length)? -1 : len;
+            return (len == n)? -1 : len;
       }
 }
