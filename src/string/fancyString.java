@@ -1,3 +1,4 @@
+// String Builder is faster than normal String concatenation
 class fancyString {
       public String makeFancyString(String s) {
           StringBuilder ans = new StringBuilder();
