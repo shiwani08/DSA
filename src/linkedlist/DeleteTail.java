@@ -1,7 +1,7 @@
 public class DeleteTail {
       public static void main(String[] args) {
             DeleteTail ob = new DeleteTail();
-            int a[] = {1,2,3,4,5}, i;
+            int a[] = { 1, 2, 3, 4, 5 }, i;
             Node head = new Node(a[0]), temp;
             Node mover = head;
 
@@ -19,9 +19,9 @@ public class DeleteTail {
                   temp = temp.next;
             }
             System.out.println();
-            //deleting the tail
+            // deleting the tail
             // while (temp.next.next != null) {
-            //       temp = temp.next;
+            // temp = temp.next;
             // }
             // temp.next = null;
 
@@ -31,14 +31,14 @@ public class DeleteTail {
       Node deleteNode(Node head, int k) {
             Node temp = head, prev = temp;
             int count = 0;
-            //we have to delete the head
-            if(k == 1) {
+            // we have to delete the head
+            if (k == 1) {
                   head = head.next;
-            } 
+            }
 
             while (temp != null) {
                   count++;
-                  if(count == k) {
+                  if (count == k) {
                         prev.next = prev.next.next;
                   }
                   prev = temp;
@@ -51,10 +51,12 @@ public class DeleteTail {
 class Node {
       int data;
       Node next;
+
       Node(int data1, Node next1) {
             this.data = data1;
             this.next = next1;
       }
+
       Node(int data1) {
             this.data = data1;
             this.next = null;

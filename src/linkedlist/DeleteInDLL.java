@@ -1,4 +1,5 @@
-package linkedlist;
+// package linkedlist;
+// have some error
 
 public class DeleteInDLL {
       public static void main(String[] args) {
