@@ -1,3 +1,5 @@
+// have some error
+
 public class InsertNodeAtP {
       public static void main(String[] args) {
             LinkedList list = new LinkedList();
