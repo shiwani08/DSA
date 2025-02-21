@@ -1,4 +1,4 @@
-// package linkedlist;
+package linkedlist;
 // have some error
 
 public class DeleteInDLL {
