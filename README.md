@@ -37,4 +37,8 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/shiwani08/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
+## Math
+|  |
+| ------- |
+| [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/shiwani08/DSA/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
 <!---LeetCode Topics End-->
