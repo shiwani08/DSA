@@ -4,6 +4,7 @@ All the DSA topics that I have learnt!
 ## Array
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/shiwani08/DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/shiwani08/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 ## Binary Search
@@ -41,4 +42,12 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [3754-concatenate-non-zero-digits-and-multiply-by-sum-i](https://github.com/shiwani08/DSA/tree/master/3754-concatenate-non-zero-digits-and-multiply-by-sum-i) |
+## Two Pointers
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
+## Sorting
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
