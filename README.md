@@ -7,10 +7,12 @@ All the DSA topics that I have learnt!
 | [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/shiwani08/DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/shiwani08/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Binary Search
 |  |
 | ------- |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/shiwani08/DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -20,6 +22,7 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/shiwani08/DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -34,6 +37,7 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/shiwani08/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
 ## Shortest Path
 |  |
 | ------- |
@@ -59,4 +63,8 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/shiwani08/DSA/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
+## Hash Table
+|  |
+| ------- |
+| [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
 <!---LeetCode Topics End-->
