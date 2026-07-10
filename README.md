@@ -9,11 +9,13 @@ All the DSA topics that I have learnt!
 | [2812-find-the-safest-path-in-a-grid](https://github.com/shiwani08/DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/shiwani08/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/shiwani08/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Binary Search
 |  |
 | ------- |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/shiwani08/DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/shiwani08/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -39,6 +41,7 @@ All the DSA topics that I have learnt!
 | ------- |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/shiwani08/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/shiwani08/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Shortest Path
 |  |
 | ------- |
@@ -53,11 +56,13 @@ All the DSA topics that I have learnt!
 | ------- |
 | [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/shiwani08/DSA/tree/master/0088-merge-sorted-array) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/shiwani08/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Sorting
 |  |
 | ------- |
 | [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/shiwani08/DSA/tree/master/0088-merge-sorted-array) |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/shiwani08/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## String
 |  |
 | ------- |
@@ -70,4 +75,16 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
+## Dynamic Programming
+|  |
+| ------- |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/shiwani08/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
+## Greedy
+|  |
+| ------- |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/shiwani08/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
+## Bit Manipulation
+|  |
+| ------- |
+| [3534-path-existence-queries-in-a-graph-ii](https://github.com/shiwani08/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 <!---LeetCode Topics End-->
