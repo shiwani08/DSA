@@ -1,26 +1,39 @@
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
-        HashMap<Integer, Integer> map = new HashMap<>();
-        List<Integer> list = new ArrayList<>();
+        int candidate1 = 0, candidate2 = 0;
+        int count1 = 0, count2 = 0;
 
-        int div = (nums.length) / 3;
-
-        // filling numbers with freq in the map
+        // Phase 1: find two potential candidates
         for (int num : nums) {
-            if(map.containsKey(num))
-                map.put(num, map.getOrDefault(num, 0) + 1);
-
-            else
-                map.put(num, 1);
+            if (count1 > 0 && num == candidate1) {
+                count1++;
+            } else if (count2 > 0 && num == candidate2) {
+                count2++;
+            } else if (count1 == 0) {
+                candidate1 = num;
+                count1 = 1;
+            } else if (count2 == 0) {
+                candidate2 = num;
+                count2 = 1;
+            } else {
+                count1--;
+                count2--;
+            }
         }
 
-        // search for div freq in map and add to the list
+        // Phase 2: verify candidates actually appear more than n/3 times
+        count1 = 0;
+        count2 = 0;
         for (int num : nums) {
-            if(map.get(num) > div)
-            if(list.contains(num) == false)
-            list.add(num);
+            if (num == candidate1) count1++;
+            else if (num == candidate2) count2++;
         }
 
-        return list;
+        List<Integer> result = new ArrayList<>();
+        int n = nums.length;
+        if (count1 > n / 3) result.add(candidate1);
+        if (count2 > n / 3) result.add(candidate2);
+
+        return result;
     }
 }
