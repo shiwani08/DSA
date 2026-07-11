@@ -1,31 +1,21 @@
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        int m = matrix.length, n = matrix[0].length, i, j, k = 0, mid, lower, upper;
-        int arr[] = new int [m * n];
-
-        // filling into the 1D arr
-        for (i = 0; i < m; i++) {
-            for (j = 0; j < n; j++) {
-                arr[k++] = matrix[i][j];
-            }
-        }
-
-        // doing binary search on arr
-        lower = 0;
-        upper = k - 1;
-
-        mid = (lower + upper) / 2;
+        int m = matrix.length, n = matrix[0].length;
+        int lower = 0, upper = m * n - 1;
 
         while (lower <= upper) {
-            mid = (lower + upper) / 2;
+            int mid = lower + (upper - lower) / 2;
 
-            if(target < arr[mid]) 
+            // map the 1D mid index back to 2D coordinates
+            int row = mid / n;
+            int col = mid % n;
+            int value = matrix[row][col];
+
+            if (target < value) {
                 upper = mid - 1;
-
-            else if(target > arr[mid])
+            } else if (target > value) {
                 lower = mid + 1;
-
-            else {
+            } else {
                 return true;
             }
         }
