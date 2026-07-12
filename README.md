@@ -6,6 +6,7 @@ All the DSA topics that I have learnt!
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/shiwani08/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/shiwani08/DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/shiwani08/DSA/tree/master/0088-merge-sorted-array) |
 | [0229-majority-element-ii](https://github.com/shiwani08/DSA/tree/master/0229-majority-element-ii) |
 | [0287-find-the-duplicate-number](https://github.com/shiwani08/DSA/tree/master/0287-find-the-duplicate-number) |
@@ -18,6 +19,7 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/shiwani08/DSA/tree/master/0074-search-a-2d-matrix) |
+| [0081-search-in-rotated-sorted-array-ii](https://github.com/shiwani08/DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0287-find-the-duplicate-number](https://github.com/shiwani08/DSA/tree/master/0287-find-the-duplicate-number) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/shiwani08/DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
