@@ -4,6 +4,7 @@ All the DSA topics that I have learnt!
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/shiwani08/DSA/tree/master/0001-two-sum) |
 | [0074-search-a-2d-matrix](https://github.com/shiwani08/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/shiwani08/DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -89,6 +90,7 @@ All the DSA topics that I have learnt!
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/shiwani08/DSA/tree/master/0001-two-sum) |
 | [0229-majority-element-ii](https://github.com/shiwani08/DSA/tree/master/0229-majority-element-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/shiwani08/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
