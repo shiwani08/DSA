@@ -113,4 +113,8 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [0229-majority-element-ii](https://github.com/shiwani08/DSA/tree/master/0229-majority-element-ii) |
+## Enumeration
+|  |
+| ------- |
+| [1291-sequential-digits](https://github.com/shiwani08/DSA/tree/master/1291-sequential-digits) |
 <!---LeetCode Topics End-->
