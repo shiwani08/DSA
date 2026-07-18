@@ -10,6 +10,7 @@ All the DSA topics that I have learnt!
 | [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/shiwani08/DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/shiwani08/DSA/tree/master/0088-merge-sorted-array) |
+| [0128-longest-consecutive-sequence](https://github.com/shiwani08/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0229-majority-element-ii](https://github.com/shiwani08/DSA/tree/master/0229-majority-element-ii) |
 | [0287-find-the-duplicate-number](https://github.com/shiwani08/DSA/tree/master/0287-find-the-duplicate-number) |
 | [1331-rank-transform-of-an-array](https://github.com/shiwani08/DSA/tree/master/1331-rank-transform-of-an-array) |
@@ -40,6 +41,7 @@ All the DSA topics that I have learnt!
 ## Union-Find
 |  |
 | ------- |
+| [0128-longest-consecutive-sequence](https://github.com/shiwani08/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [2685-count-the-number-of-complete-components](https://github.com/shiwani08/DSA/tree/master/2685-count-the-number-of-complete-components) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/shiwani08/DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
@@ -107,6 +109,7 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/shiwani08/DSA/tree/master/0001-two-sum) |
+| [0128-longest-consecutive-sequence](https://github.com/shiwani08/DSA/tree/master/0128-longest-consecutive-sequence) |
 | [0229-majority-element-ii](https://github.com/shiwani08/DSA/tree/master/0229-majority-element-ii) |
 | [1331-rank-transform-of-an-array](https://github.com/shiwani08/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/shiwani08/DSA/tree/master/3312-sorted-gcd-pair-queries) |
