@@ -6,6 +6,7 @@ All the DSA topics that I have learnt!
 | ------- |
 | [0001-two-sum](https://github.com/shiwani08/DSA/tree/master/0001-two-sum) |
 | [0015-3sum](https://github.com/shiwani08/DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/shiwani08/DSA/tree/master/0018-4sum) |
 | [0074-search-a-2d-matrix](https://github.com/shiwani08/DSA/tree/master/0074-search-a-2d-matrix) |
 | [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/shiwani08/DSA/tree/master/0081-search-in-rotated-sorted-array-ii) |
@@ -84,6 +85,7 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [0015-3sum](https://github.com/shiwani08/DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/shiwani08/DSA/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/shiwani08/DSA/tree/master/0088-merge-sorted-array) |
 | [0287-find-the-duplicate-number](https://github.com/shiwani08/DSA/tree/master/0287-find-the-duplicate-number) |
@@ -93,6 +95,7 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [0015-3sum](https://github.com/shiwani08/DSA/tree/master/0015-3sum) |
+| [0018-4sum](https://github.com/shiwani08/DSA/tree/master/0018-4sum) |
 | [0075-sort-colors](https://github.com/shiwani08/DSA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/shiwani08/DSA/tree/master/0088-merge-sorted-array) |
 | [0229-majority-element-ii](https://github.com/shiwani08/DSA/tree/master/0229-majority-element-ii) |
