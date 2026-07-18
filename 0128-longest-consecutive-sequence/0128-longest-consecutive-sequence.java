@@ -1,36 +1,34 @@
 class Solution {
-    public boolean linearSearch(int arr[], int num) {
-        int n = arr.length;
-        int i;
-        for (i = 0; i < n; i++) {
-            if (arr[i] == num)
-            return true;
-        }
-        return false;
-    }
-
     public int longestConsecutive(int[] nums) {
-        int longest = 1, count = 1, i, x, j;
-        int n = nums.length;
+        if (nums.length == 0)
+            return 0;
 
-        if(n == 0)
-        return 0;
+        HashSet<Integer> set = new HashSet<>();
 
-        Arrays.sort(nums);
-
-        for (i = 0; i < n - 1; i++) {
-            if(nums[i + 1] == nums[i])
-                continue;
-                
-            if(nums[i + 1] == nums[i] + 1)
-                count++;
-            else 
-                count = 1;
-
-            if(longest < count) 
-                longest = count;
+        // Step 1: add all numbers into the set (removes duplicates automatically)
+        for (int num : nums) {
+            set.add(num);
         }
 
-        return longest;
+        int maxCount = 1;
+
+        // Step 2: only start counting from numbers that begin a sequence
+        for (int num : set) {
+            // if num - 1 exists, num is NOT the start of a chain, so skip it
+            if (!set.contains(num - 1)) {
+                int currentNum = num;
+                int count = 1;
+
+                // walk forward as long as consecutive numbers exist
+                while (set.contains(currentNum + 1)) {
+                    currentNum++;
+                    count++;
+                }
+
+                maxCount = Math.max(maxCount, count);
+            }
+        }
+
+        return maxCount;
     }
 }
