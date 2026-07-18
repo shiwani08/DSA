@@ -1,23 +1,36 @@
 class Solution {
+    public boolean linearSearch(int arr[], int num) {
+        int n = arr.length;
+        int i;
+        for (i = 0; i < n; i++) {
+            if (arr[i] == num)
+            return true;
+        }
+        return false;
+    }
+
     public int longestConsecutive(int[] nums) {
-        int largest = 1, curCnt = 1, lastSmall = Integer.MIN_VALUE, i;
-       Arrays.sort(nums);
+        int longest = 1, count = 1, i, x, j;
+        int n = nums.length;
 
-       if(nums.length == 0)
-       return 0;
+        if(n == 0)
+        return 0;
 
-       for (i = 0; i < nums.length; i++) {
-            if(nums[i] - 1 == lastSmall) {
-                curCnt++;
-                lastSmall = nums[i];
-            }
-            else if(nums[i] != lastSmall) {
-                curCnt = 1;
-                lastSmall = nums[i];
-            }
-            largest = Math.max(largest, curCnt);
-       }
+        Arrays.sort(nums);
 
-       return largest;
+        for (i = 0; i < n - 1; i++) {
+            if(nums[i + 1] == nums[i])
+                continue;
+                
+            if(nums[i + 1] == nums[i] + 1)
+                count++;
+            else 
+                count = 1;
+
+            if(longest < count) 
+                longest = count;
+        }
+
+        return longest;
     }
 }
