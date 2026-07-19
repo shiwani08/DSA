@@ -106,6 +106,7 @@ All the DSA topics that I have learnt!
 ## String
 |  |
 | ------- |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/shiwani08/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [3756-concatenate-non-zero-digits-and-multiply-by-sum-ii](https://github.com/shiwani08/DSA/tree/master/3756-concatenate-non-zero-digits-and-multiply-by-sum-ii) |
 ## Prefix Sum
 |  |
@@ -130,6 +131,7 @@ All the DSA topics that I have learnt!
 ## Greedy
 |  |
 | ------- |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/shiwani08/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/shiwani08/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
 ## Bit Manipulation
 |  |
@@ -166,4 +168,12 @@ All the DSA topics that I have learnt!
 |  |
 | ------- |
 | [3312-sorted-gcd-pair-queries](https://github.com/shiwani08/DSA/tree/master/3312-sorted-gcd-pair-queries) |
+## Stack
+|  |
+| ------- |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/shiwani08/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1081-smallest-subsequence-of-distinct-characters](https://github.com/shiwani08/DSA/tree/master/1081-smallest-subsequence-of-distinct-characters) |
 <!---LeetCode Topics End-->
