@@ -24,6 +24,7 @@ All the DSA topics that I have learnt!
 | [3501-maximize-active-section-with-trade-ii](https://github.com/shiwani08/DSA/tree/master/3501-maximize-active-section-with-trade-ii) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3534-path-existence-queries-in-a-graph-ii](https://github.com/shiwani08/DSA/tree/master/3534-path-existence-queries-in-a-graph-ii) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/shiwani08/DSA/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3867-sum-of-gcd-of-formed-pairs](https://github.com/shiwani08/DSA/tree/master/3867-sum-of-gcd-of-formed-pairs) |
 ## Binary Search
 |  |
@@ -127,6 +128,7 @@ All the DSA topics that I have learnt!
 | [1331-rank-transform-of-an-array](https://github.com/shiwani08/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [3312-sorted-gcd-pair-queries](https://github.com/shiwani08/DSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/shiwani08/DSA/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Dynamic Programming
 |  |
 | ------- |
