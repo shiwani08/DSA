@@ -18,6 +18,7 @@ All the DSA topics that I have learnt!
 | [1331-rank-transform-of-an-array](https://github.com/shiwani08/DSA/tree/master/1331-rank-transform-of-an-array) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/shiwani08/DSA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2812-find-the-safest-path-in-a-grid](https://github.com/shiwani08/DSA/tree/master/2812-find-the-safest-path-in-a-grid) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shiwani08/DSA/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3286-find-a-safe-walk-through-a-grid](https://github.com/shiwani08/DSA/tree/master/3286-find-a-safe-walk-through-a-grid) |
 | [3312-sorted-gcd-pair-queries](https://github.com/shiwani08/DSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3336-find-the-number-of-subsequences-with-equal-gcd](https://github.com/shiwani08/DSA/tree/master/3336-find-the-number-of-subsequences-with-equal-gcd) |
@@ -133,6 +134,7 @@ All the DSA topics that I have learnt!
 | [0229-majority-element-ii](https://github.com/shiwani08/DSA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/shiwani08/DSA/tree/master/0268-missing-number) |
 | [1331-rank-transform-of-an-array](https://github.com/shiwani08/DSA/tree/master/1331-rank-transform-of-an-array) |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shiwani08/DSA/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3312-sorted-gcd-pair-queries](https://github.com/shiwani08/DSA/tree/master/3312-sorted-gcd-pair-queries) |
 | [3532-path-existence-queries-in-a-graph-i](https://github.com/shiwani08/DSA/tree/master/3532-path-existence-queries-in-a-graph-i) |
 | [3718-smallest-missing-multiple-of-k](https://github.com/shiwani08/DSA/tree/master/3718-smallest-missing-multiple-of-k) |
@@ -195,5 +197,10 @@ All the DSA topics that I have learnt!
 ## Segment Tree
 |  |
 | ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shiwani08/DSA/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 | [3501-maximize-active-section-with-trade-ii](https://github.com/shiwani08/DSA/tree/master/3501-maximize-active-section-with-trade-ii) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [2913-subarrays-distinct-element-sum-of-squares-i](https://github.com/shiwani08/DSA/tree/master/2913-subarrays-distinct-element-sum-of-squares-i) |
 <!---LeetCode Topics End-->
